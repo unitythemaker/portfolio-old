@@ -6,52 +6,54 @@
 # You can freely edit it here, if you don't know YAML, make sure to check
 # your YAML file using http://www.yamllint.com/
 
-name : John Doe
-nickname : Johajdlajlakdh
-title: John Doe Termplate
+name : Halil Tezcan KARABULUT
+nickname : UnityTheMaker
+title: Portfolio
 
 description: >
-  Enter Description Here...
+  He knows Javascript & Node.
+  He uses distributed micro-services architecture, Svelte for front-end.
+  He hates php & Windows. He tries to delete php from the world and writes systems in Node that are made in php.
 
 # You can customize this however you like
 social:
   - media : Github
-    username : johndonut
+    username : unitythemaker
     link : ~
     description : Where I Contribute and Do Projects
 
   - media : Hackerrank
-    username : john_doe
+    username : unitythemaker
     link : ~
-    description : Where I learn Programming
-
-  - media : Stackoverflow
-    username : JohnDoe
-    link : ~
-    description : Where I ask programming Questions
+    description : Where I train
 
   - media : LinkedIn
-    username : John Doe
+    username : Halil Tezcan KARABULUT
     link : ~
     description : Where I can be found for recruiters
 
 contact:
   - method : Email
-    address : johndoe@example.com
+    address : unitythemaker@gmail.com
 
 projects :
-  - name : Termplate
-    description : A cool Terminal Interface web portofolio
-    link : https://github.com/thomas154/portfolio
-
-  - name : ~
-    description : ~
+  - name : Octocker (Privately maintained)
+    description : A Docker based game & app hosting panel.
     link : ~
+  - name : WitherMC (Privately maintained)
+    description : World's biggest auto-scaling concept for the Minecraft servers.
+    link : ~
+  - name : Decentralized Game Network (Privately maintained)
+    description : A game server network that is compatible with the most of the games, which you can deploy multiple servers that are sync with each other but the same players are playing in the same server. (Based on Minecraft's tick system)
+    link : ~
+  - name : Assisky
+    description : The first Discord Speech-to-Text module.
+    link : https://github.com/unitythemaker/assisky
 
 additional : |
-  Add Here
+  Soon!
 
-resume: https://drive.google.com/linktoyouresume
+resume: Soon!
 
 history: |
-  Add Your Background / Story Here
+  Soon!
