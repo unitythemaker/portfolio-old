@@ -6,6 +6,8 @@ import yaml
 
 from flask import Flask, request, render_template
 
+ON_HEROKU = os.environ.get('ON_HEROKU')
+
 app = Flask(__name__)
 version = ""
 
@@ -18,4 +20,8 @@ def terminal_home():
     return render_template('home.html', user=user_info)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    if ON_HEROKU:
+        # get the heroku port
+        app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 17995)), debug=True)
+    else:
+        app.run(host='0.0.0.0', port=8000, debug=True)
